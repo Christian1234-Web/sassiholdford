@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="navigation">
+            <div class="start">
+                <div class="startimg">
+                    <img src="image/IMG_4275.JPG" alt="">
+                </div>
+                <div class="starttxt">
+                    <h4>Victoria Baker</h4>
+                    <p>Santa Ana, CA</p>
+                </div>
+            </div>
+            <a href="index_api.html">
+                <h5>All Products</h5>
+            </a>
+            <h5 class="dashboard">Create Product</h5>
+
+            <a href="dashboard._api.html">
+                <h5>Users</h5>
+            </a>
+            <a href="user_api.html">
+                <h5>Create User</h5>
+            </a>
+
+        </div>
+
+        <div class="information">
+            <div class="home">
+                <div class="h">
+                    <h4>Home / Dashbord</h4>
+                </div>
+                <div class="back">
+                    <p>Back</p>
+                </div>
+            </div>
+            <div class="info_Header">
+                <H1 class="margin pad">Create Product</H1>
+                <p class="margin padding">The .Table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+
+
+
+                <div class="student-header">
+                    <h4>Product Details </h4>
+                </div>
+
+                <div class="containa margin"><br>
+                    <form action="http://206.189.124.254:9000/create/product" method="POST" enctype="multipart/form-data">
+                        <input class="margin" type="text" id="productName" name="name" placeholder="Product Name"><br><br>
+                        <input class="margin" type="text" id="productCategory" name="category" placeholder="Products Category"><br><br>
+                        <input class="margin" type="number" id="productPrice" name="price" placeholder="Price"><br><br>
+                        <input class="margin" type="number" id="productQuantity" name="quantity" placeholder="Quantity"><br><br>
+                        <input class="margin" type="file" id="productImage" name="image"><br><br>
+                        <!-- <input class="margin" type="file" name="user"><br><br> -->
+                        <textarea class="margin" name="description" id="productDescription" rows="7" placeholder="Product descriptions "></textarea><br><br>
+                        <input type="submit" class="button" value="Create Product">
+                    </form>
+                </div>
+
+
+                <div class="space"></div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

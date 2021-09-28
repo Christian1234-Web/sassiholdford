@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/api_style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="navigation">
+            <div class="start">
+                <div class="startimg">
+                    <img src="image/IMG_4275.JPG" alt="">
+                </div>
+                <div class="starttxt">
+                    <h4>Victoria Baker</h4>
+                    <p>Santa Ana, CA</p>
+                </div>
+            </div>
+            <a href="index_api.html">
+                <h5>All Products</h5>
+            </a>
+            <a href="product_api.html">
+                <h5>Create Products</h5>
+            </a>
+
+            <h5 class="dashboard">Users</h5>
+            <a href="user_api.html">
+                <h5>Create User</h5>
+            </a>
+
+        </div>
+
+        <div class="information">
+            <div class="home">
+                <div class="h">
+                    <h4>Home / Dashbord</h4>
+                </div>
+                <div class="back">
+                    <p>Back</p>
+                </div>
+            </div>
+            <div class="hidden">
+
+                <form action="" id="form">
+                    <h4>User Details </h4>
+
+                    <input type="name" name="name" class="user_text" id="name" placeholder="Name" required>
+                    <br><br>
+                    <input type="number" class="user_text" name="phone" id="phone" placeholder="Phone Number" required>
+                    <br><br>
+                    <input type="email" name="email" class="user_text" id="email" placeholder="Email" required>
+                    <br><br>
+                    <input type="password" class="user_text" id="password" name="password" placeholder="Password" required>
+                    <br><br>
+                    <input type="button" class="user_text" id="btnUpdate" value="Update User" required>
+                </form>
+            </div>
+            <div class="student-header">
+                <h4>User Details </h4>
+            </div>
+            <div class="studentDetails">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Email</td>
+                            <td>Phone</td>
+                            <td>Management</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <script src="js/jquery-3.4.1.min.js "></script>
+        <script src="js/user.js "></script>
+</body>
+
+</html>

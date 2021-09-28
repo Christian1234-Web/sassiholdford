@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stlye.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="register_page">
+
+        <h3 id="int"><i><b>SASSI HOLFORD INTERNATIONAL</b></i></h3>
+        <br><br><br><br><br><br>
+        <style>
+            #int {
+                color: transparent;
+                visibility: visible;
+                -webkit-text-stroke: 1px #141514;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgb(20, 21, 23);
+            }
+        </style>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <h2>Sassi Registration Form</h2>
+            <br>
+            <br> <br>
+            <hr>
+            <div class="input1">
+
+                <div class="p">
+                    <b><p>Your Name</p></b>
+                    <br</div><br>
+                        <input type="First Name" id="first-name" class="result" name="firstname" placeholder="First Name " required/>
+
+                        <input type="Last Name" id="last-name" name="lastname" class="result" placeholder="Last Name" required/>
+                        <style>
+                            #message {
+                                color: red;
+                            }
+                        </style>
+                        <p id="message"></p>
+
+                </div>
+
+            </div><br><br><br><br>
+            <div class="add">
+                <b><p>
+                    Address
+                </p></b>
+                <br>
+                <input type="address" name="address" class="result" id="residential-add" placeholder="Residential Address" required/>
+                <style>
+                    #warn {
+                        color: red;
+                    }
+                </style>
+                <p id="warn"></p>
+
+            </div>
+            <div class="confirm"><br><br>
+                <b><p>Confirm Address</p></b>
+
+                <br>
+                <input type="address" name="address" class="result" id="confirm-add" placeholder="Confirm Address" required/>
+                <style>
+                    #notice {
+                        color: red;
+                    }
+                </style>
+                <p id="notice"></p>
+
+            </div>
+            <div class="city"><br><br>
+                <select name="town" id="city">
+
+<option value="">Select Country</option>
+            <option value="africa">nigeria</option>
+            <option value="africa">ghana</option>
+            <option value="asia">china</option>
+            <option value="southAmerica">Venezuela</option>
+            <option value="northAmerica">canada</option>
+            <option value="Europe">London</option>
+            <option value="Oceania">Australia</option>
+                </select>
+                <input type="number" name="age" id="age" class="result" placeholder="Age" required disabled />
+                <b><p>Country</p></b>
+            </div>
+            <div class="email">
+                <br><br>
+                <b><p>Email</p></b>
+                <br>
+                <input type="email" name="Email" class="result" id="email-add" placeholder="Email Address" required/>
+                <p id="error"></p>
+
+            </div>
+            <div class="phone"><br><br>
+                <b>Phone Number</b><br>
+                <input type="number" name="phone number" class="result" placeholder="phone number" required/>
+                <input type="date" id="date" name="date" class="result" placeholder="Enter date of birth" required/>
+                <b><p>Date</p></b>
+            </div>
+            <div class="submit">
+                <a href="shop_page.html">
+                    <button type="button" onclick="myFunction()" id="submit">submit</button>
+                </a>
+            </div>
+            </form>
+            <b><i><p>copyright 2021</p></i></b>
+            <hr>
+
+        </div>
+        <style>
+            #submit {
+                border: 1px solid #141517;
+                background-color: #141517;
+                border-radius: 2px;
+                color: white;
+                padding: 10px;
+                width: 150px;
+                cursor: pointer;
+                text-align: center;
+                transition: 1.5;
+            }
+            
+            #submit :hover {
+                background-color: transparent;
+            }
+        </style>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

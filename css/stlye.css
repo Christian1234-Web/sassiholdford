@@ -1,0 +1,115 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            /* background-image: url('../assignment/img/imagebck2.png'); */
+            /* height: 100vh; */
+            /* background-color: black; */
+            /* background-image: url('../assignment/img/cap.webp'); */
+        }
+        
+        body .write {
+            display: flex;
+            font-size: 30px;
+            color: rgb(20, 19, 19);
+            /* border: 10px solid black; */
+            border-radius: 2;
+        }
+        
+        span {
+            padding-left: 100px;
+        }
+        
+        h3 {
+            /* border: 30px solid black; */
+            padding-left: 250px;
+            font-size: 50px;
+            color: rgb(17, 17, 17);
+        }
+        
+        .container {
+            /* border: 50px solid black; */
+            border-radius: 2;
+            position: absolute;
+            /* background-color: aliceblue; */
+            width: 50%;
+            height: 850px;
+            left: 300px;
+            top: 100px;
+            bottom: 10px;
+        }
+        
+        h1 {
+            /* border: 4px solid white; */
+            border-radius: 2;
+            height: 40px;
+            padding-left: 100px;
+        }
+        
+        .input1,
+        .input2 {
+            display: inline-flex;
+            /* padding: 20px; */
+            justify-content: space-between;
+            /* bottom: 10px; */
+            /* height: 80px; */
+        }
+        
+        .input2.pr {
+            padding-bottom: 100px;
+            /* height: 30px; */
+            /* bottom: 50px; */
+        }
+        
+        .input1 input {
+            /* padding-top: 200px; */
+            height: 30px;
+            /* bottom: 50px; */
+        }
+        
+        .add input {
+            width: 400px;
+            top: 60px;
+            bottom: 80px;
+            height: 30px;
+        }
+        
+        .confirm input {
+            width: 400px;
+            top: 60px;
+            bottom: 80px;
+            height: 30px;
+        }
+        
+        .city select {
+            width: 150px;
+            height: 30px;
+        }
+        
+        .city input {
+            width: 150px;
+            height: 30px;
+        }
+        
+        .email input {
+            width: 400px;
+            height: 30px;
+        }
+        
+        .phone input {
+            width: 200px;
+            height: 30px;
+        }
+        
+        .phone p {
+            padding-left: 250px;
+        }
+        
+        .submit input {
+            width: 100px;
+            height: 30px;
+            /* position: absolute; */
+            left: 250px;
+        }

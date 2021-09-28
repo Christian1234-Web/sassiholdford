@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="navigation">
+            <div class="start">
+                <div class="startimg">
+                    <img src="image/IMG_4275.JPG" alt="">
+                </div>
+                <div class="starttxt">
+                    <h4>Victoria Baker</h4>
+                    <p>Santa Ana, CA</p>
+                </div>
+            </div>
+            <a href="/index_api.html">
+                <h5>All Products</h5>
+            </a>
+            <a href="/product_api.html">
+                <h5>Create Products</h5>
+            </a>
+
+            <a href="/dashboard._api.html">
+                <h5>Users</h5>
+            </a>
+            <h5 class="dashboard">Create User</h5>
+
+        </div>
+
+        <div class="information">
+            <div class="home">
+                <div class="h">
+                    <h4>Home / Dashbord</h4>
+                </div>
+                <div class="back">
+                    <p>Back</p>
+                </div>
+            </div>
+            <div class="info_Header">
+                <H1 class="margin pad">Create User</H1>
+                <p class="margin padding">The .Table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+
+
+                <div class="student-header">
+                    <h4>User Details </h4>
+                </div>
+
+
+                <form action="http://206.189.124.254:9000/register" method="POST">
+                    <input type="text" name="name" class="user_text" placeholder="Name">
+                    <br><br>
+                    <input type="number" class="user_text" name="phone" placeholder="Phone Number">
+                    <br><br>
+                    <input type="text" name="email" id="mail" class="user_text" placeholder="Email" required>
+                    <br><br>
+                    <input type="password" class="user_text" id="pass" name="password" placeholder="Password" required>
+                    <br><br>
+                    <input type="submit" class="user_text" value="Create User" required>
+                </form>
+            </div>
+        </div>
+
+        <div class="space"></div>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/all_user.js"></script>
+</body>
+
+</html>
